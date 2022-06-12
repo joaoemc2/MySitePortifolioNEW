@@ -21,7 +21,7 @@ i {
     color: var(--color-primary);
 }
 
-a:hover{
+a:hover {
     color: var(--color-primary-hover) !important;
 }
 
@@ -59,173 +59,332 @@ p {
     color: var(--color-white);
 }
 
-.color-primary{
+.color-primary {
     color: var(--color-primary);
 }
 
 /* navbar */
 
-.navbar-brand{
+.navbar-brand {
     color: var(--color-primary);
 }
 
 /* header */
 
-.header{
+.header {
     background-color: var(--color-black);
     padding: 0 30px;
     padding-bottom: 20px;
 }
 
-.img-eu{
+.img-eu {
     width: 180px;
     margin: 40px 0 20px 0;
 }
 
-.img-and-text .title{
+.img-and-text .title {
     text-align: center;
     margin: 20px 0 20px 0;
 }
 
-.img-and-text .sub-title{
+.img-and-text .sub-title {
     text-align: center;
     width: 1200px;
     margin: 20px 0 20px 0;
+    line-height: 28px;
 }
 
-.veja-mais{
+.veja-mais {
     display: flex;
     align-content: flex-end;
     margin: 40px 0 40px 0;
 }
 
-.arrow.bi{
+.arrow.bi {
     color: var(--color-primary);
-   position: relative;
-   top: 3px;
-   padding: 0;
-   margin: 0;
+    position: relative;
+    top: 3px;
+    padding: 0;
+    margin: 0;
 }
 
 /*sobre mim*/
 
-.about-me{
+.about-me {
     padding: 0 30px;
 }
 
-.about-me .title{
+.about-me .title {
     margin: 20px 0 20px 0;
 }
 
-.about-me .text{
+.about-me .text {
     margin: 20px 0 20px 0;
 }
 
-.img-fluid.astronaut{
+.img-fluid.astronaut {
     width: 400px;
 }
 
-.stephen{
- padding: 0 25px;
- margin-bottom: 20px;
+.stephen {
+    padding: 0 25px;
+    margin-bottom: 20px;
 }
 
 /* hobbies */
 
-.hobbies{
+.hobbies {
     margin: 20px 0 20px 0;
     padding: 0 30px;
 }
 
-.astro,.guitar,.book,.game,.f1{
+.hobbies-col.col-7 {
+    padding: 30px 0;
+}
+
+.hobbies .title {
+    margin: 20px 0;
+}
+
+.hobbies .hobbies-icons {
+    margin: 40px 0;
+}
+
+.astro {
     text-align: center;
+    padding-top: 20px;
 }
 
-.astro-img{
-    padding: 20%;
+.guitar {
+    text-align: center;
+    padding-top: 20px;
 }
-.guitar-img{
-    padding: 20%;
 
+.book {
+    text-align: center;
+    padding-top: 11px;
 }
-.book-img{
-    padding: 26%;
 
+.game {
+    text-align: center;
+    padding-top: 22px;
 }
-.game-img{
-    padding: 20%;
+
+.f1 {
+    text-align: center;
+    padding-top: 12px;
 }
-.f1-img{
-    padding: 20%;
-}
+
 
 /* habilidades & qualidades*/
 
-.habilidades-qualidades{
+.habilidades-qualidades {
     margin: 40px 0;
     padding: 0 30px;
 }
 
-.habilidades-qualidades .title{
+.habilidades-qualidades .title {
     margin: 20px 0;
 }
 
-.habilidades-qualidades .text{
-    margin: 20px 0 40px 0;
+.habilidades-qualidades .text {
+    margin: 20px 0;
 }
 
-.row.hab-qua{
+.row.habilidades-qualidades {
     margin: 20px 0;
     padding: 0;
 }
 
 /* habilidades */
 
-.habilidades .title{
+.habilidades .title {
     margin: 20px 0;
 }
 
-.col-12.col-md-6.habilidades{
-    padding: 0;
-    margin: 20px 0 20px 0;
+.habilidades-col.col-7 {
+    padding: 30px 0;
 }
 
-.hab-description{
+.habilidades .title {
+    margin: 20px 0;
+}
+
+.habilidades .habilidades-icons {
+    margin: 20px 0;
+}
+
+.design {
     text-align: center;
+    padding-top: 30px;
 }
 
-.col-4.hab-qua{
-    padding: 0;
+.wireframe {
+    text-align: center;
+    padding-top: 30px;
 }
 
-.hab-img{
-    margin: 0;
+.front {
+    text-align: center;
+    padding-top: 30px;
+}
 
-    padding: 15% 30% 10% 30%;
+.design {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.wireframe {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.front {
+    text-align: center;
+    padding-top: 30px;
 }
 
 /*qualidades*/
 
-.qualidades .title{
-    margin: 20px 0 30px 0;
-    
-}
-
-.col-12.col-md-5.qualidades{
-    padding: 0;
-    margin: 20px 0 20px 0;
-}
-
-.list-group.habilidades{
+.qualidades .title {
     margin: 20px 0;
+
 }
 
-.list-group-item{
+.col-12.col-md-5.qualidades {
+    padding: 0;
+}
+
+.list-group.habilidades {
+    margin: 40px 0 20px 0;
+}
+
+.list-group-item {
     background: none !important;
     border: none;
     color: var(--color-white);
-    padding: 0 30px 18px 20px;
+    padding: 5px 30px 28px 20px;
     font-size: 18px;
     font-weight: 600;
+}
 
+/* Meus Projetos */
+
+/* first col*/
+
+.meus-projetos .first{
+    margin: 20px 0;
+    padding: 0 30px;
+}
+
+.meus-projetos .first .title{
+    margin: 20px 0;
+    padding: 0 30px;
+}
+
+.meus-projetos .first .text{
+    margin: 20px 0;
+    padding: 0 30px;
+}
+
+.meus-projetos .first .icons{
+    margin: 20px 30px;
+}
+
+/* mini-card */
+
+.col-mini-card{
+    padding: 0 30px;
+}
+
+.mini-card{
+    
+}
+
+hr.mini-card-line{
+    border: 0;
+	border-top: 1px solid var(--color-white);
+}
+
+.mini-card .left .img{
+    height: 100px;
+    width: 160px;
+    background-color: var(--color-grey);
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.mini-card .center .title {
+    padding: 0 0 8px 0;
+    margin: 0;
+}
+
+.mini-card .center .text {
+    padding: 0;
+    margin: 0;
+}
+
+
+.mini-card-link .bi {
+    color: var(--color-primary);
+    font-size: 26px;
+    position: relative;
+    top: 5px;
+    margin: 10px 0;
+}
+
+/* destaques */
+
+.destaques{
+    margin: 20px 0;
+    padding: 0 30px;
+}
+
+.destaques .div-title{
+    margin: 40px 0;
+    padding: 0 30px;
+}
+
+.card{
+    border: 5px solid var(--color-grey);
+    border-radius: 12px;
+    margin: 0 0px;
+
+}
+
+.card-img-top{
+    border-radius: 4px 4px 0 0;
+}
+
+.card-body{
+    background-color: var(--color-grey);
+}
+
+.card-body .tags .tag{
+    padding: 0 5px 0 0;
+    opacity: 0.5;
+}
+
+.card-update{
+    color: var(--color-white);
+    opacity: 0.6;
+}
+
+.card-btns{
+    margin: 10px 0;
+    padding: 0;
+}
+
+.card-btns .btn{
+    margin-right: 16px;
+    color: var(--color-black);
+    font-weight: 600;
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.card-btns .btn:hover{
+    color: var(--color-black) !important;
+    background-color: var(--color-primary-hover);
+    border-color: var(--color-primary-hover);
 }
