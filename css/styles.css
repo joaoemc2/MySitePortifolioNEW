@@ -29,6 +29,14 @@ span {
     font-weight: 650;
 }
 
+span.green{
+    color: var(--color-primary);
+}
+
+span.green:hover{
+    color: var(--color-primary-hover);
+}
+
 .bi {
     color: var(--color-white);
     font-size: 22px;
@@ -138,10 +146,6 @@ p {
     padding: 0 30px;
 }
 
-.hobbies-col.col-7 {
-    padding: 30px 0;
-}
-
 .hobbies .title {
     margin: 20px 0;
 }
@@ -150,36 +154,77 @@ p {
     margin: 40px 0;
 }
 
-.astro {
-    text-align: center;
-    padding-top: 20px;
+.hole-img {
+    height: 130px;
+    width: 130px;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/hole.png');
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
 }
 
-.guitar {
-    text-align: center;
-    padding-top: 20px;
+.guitar-img {
+    height: 130px;
+    width: 130px;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/guitar.png');
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
 }
 
-.book {
-    text-align: center;
-    padding-top: 11px;
+.book-img {
+    height: 130px;
+    width: 130px;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/book.png');
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
 }
 
-.game {
-    text-align: center;
-    padding-top: 22px;
+.game-img {
+    height: 125px;
+    width: 125px;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/game.png');
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
 }
 
+.f1-img {
+    height: 130px;
+    width: 130px;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/f1.png');
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+}
+
+
+.hole,
+.guitar,
+.book,
+.game,
 .f1 {
     text-align: center;
-    padding-top: 12px;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 
 /* habilidades & qualidades*/
 
 .habilidades-qualidades {
-    margin: 40px 0;
+    margin: 20px 0;
     padding: 0 30px;
 }
 
@@ -202,10 +247,6 @@ p {
     margin: 20px 0;
 }
 
-.habilidades-col.col-7 {
-    padding: 30px 0;
-}
-
 .habilidades .title {
     margin: 20px 0;
 }
@@ -214,35 +255,83 @@ p {
     margin: 20px 0;
 }
 
-.design {
-    text-align: center;
-    padding-top: 30px;
+.front-img {
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/front.png');
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
 }
 
-.wireframe {
-    text-align: center;
-    padding-top: 30px;
+.design-img {
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/design.png');
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
 }
 
-.front {
-    text-align: center;
-    padding-top: 30px;
+.wireframe-img {
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/wireframe.png');
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
 }
 
-.design {
-    text-align: center;
-    padding-top: 30px;
+.prototype-img {
+    height: 93px;
+    width: 93px;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/ux.png');
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
 }
 
-.wireframe {
-    text-align: center;
-    padding-top: 30px;
+.ux-img {
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/marketing.png');
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
 }
 
-.front {
-    text-align: center;
-    padding-top: 30px;
+.seo-img {
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/seo.png');
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
 }
+
+.front,
+.design,
+.wireframe,
+.prototype,
+.ux,
+.seo {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
 
 /*qualidades*/
 
@@ -268,45 +357,45 @@ p {
     font-weight: 600;
 }
 
+.last-item{
+padding-bottom: 0;
+}
+
 /* Meus Projetos */
 
 /* first col*/
 
-.meus-projetos .first{
+.meus-projetos .first {
     margin: 20px 0;
     padding: 0 30px;
 }
 
-.meus-projetos .first .title{
-    margin: 20px 0;
-    padding: 0 30px;
+.meus-projetos .first .title {
+   margin-bottom: 20px;
 }
 
-.meus-projetos .first .text{
+.meus-projetos .first .text {
     margin: 20px 0;
-    padding: 0 30px;
 }
 
-.meus-projetos .first .icons{
+.meus-projetos .first .icons {
     margin: 20px 30px;
 }
 
 /* mini-card */
 
-.col-mini-card{
+.col-mini-card {
     padding: 0 30px;
 }
 
-.mini-card{
-    
-}
+.mini-card {}
 
-hr.mini-card-line{
+hr.mini-card-line {
     border: 0;
-	border-top: 1px solid var(--color-white);
+    border-top: 1px solid var(--color-white);
 }
 
-.mini-card .left .img{
+.mini-card .left .img {
     height: 100px;
     width: 160px;
     background-color: var(--color-grey);
@@ -335,47 +424,52 @@ hr.mini-card-line{
 
 /* destaques */
 
-.destaques{
+.destaques {
     margin: 20px 0;
     padding: 0 30px;
 }
 
-.destaques .div-title{
+.destaques .div-title {
     margin: 40px 0;
     padding: 0 30px;
 }
 
-.card{
+.border-card{
+    background-color: var(--color-grey);
     border: 5px solid var(--color-grey);
-    border-radius: 12px;
-    margin: 0 0px;
-
+    border-radius: 15px;
+    margin-bottom: 40px;
 }
 
-.card-img-top{
+.card {
+    margin: 0 !important;
+    border: none;
+}
+
+.card-img-top {
     border-radius: 4px 4px 0 0;
 }
 
-.card-body{
+.card-body {
     background-color: var(--color-grey);
 }
 
-.card-body .tags .tag{
+.card-body .tags .tag {
     padding: 0 5px 0 0;
     opacity: 0.5;
 }
 
-.card-update{
+.card-update {
     color: var(--color-white);
     opacity: 0.6;
 }
 
-.card-btns{
+.card-btns {
     margin: 10px 0;
     padding: 0;
 }
 
-.card-btns .btn{
+.card-btns .btn {
     margin-right: 16px;
     color: var(--color-black);
     font-weight: 600;
@@ -383,8 +477,59 @@ hr.mini-card-line{
     border-color: var(--color-primary);
 }
 
-.card-btns .btn:hover{
+.card-btns .btn:hover {
     color: var(--color-black) !important;
     background-color: var(--color-primary-hover);
     border-color: var(--color-primary-hover);
+}
+
+/* footer */
+
+.footer {
+    height: 100%;
+    width: 100%;
+    background-color: #3A3A3A;
+    margin-top: 20px;
+    padding: 20px 30px;
+}
+
+.footer .container-top{
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+.footer .container-top .title {
+    margin: 20px 0;
+    padding: 0;
+}
+
+
+.footer .container-top .social-icons {
+    font-size: 24px;
+}
+
+.footer .container-top .social-icon {
+    margin: 0 4px;
+    color: var(--color-white);
+}
+
+.footer .container-top .social-icon:hover {
+    margin: 0 4px;
+    color: var(--color-blue-hover);
+}
+
+/* pages */
+
+.footer .row .col-footer .title {
+    font-size: 18px;
+    margin: 24px 0;
+}
+
+.footer .row .col-footer .list-group {
+    padding: 0;
+}
+
+.footer .row .col-footer .list-group .list-group-item {
+    padding: 0 0 15px 0px;
+    font-size: 16px ;
 }
