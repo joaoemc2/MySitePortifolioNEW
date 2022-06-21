@@ -29,11 +29,11 @@ span {
     font-weight: 650;
 }
 
-span.green{
+span.green {
     color: var(--color-primary);
 }
 
-span.green:hover{
+span.green:hover {
     color: var(--color-primary-hover);
 }
 
@@ -71,10 +71,18 @@ p {
     color: var(--color-primary);
 }
 
+.select-color {
+    color: var(--color-primary-hover) !important;
+}
+
 /* navbar */
 
 .navbar-brand {
     color: var(--color-primary);
+}
+
+.navbar-title {
+    font-weight: 600;
 }
 
 /* header */
@@ -107,6 +115,7 @@ p {
     align-content: flex-end;
     margin: 40px 0 40px 0;
 }
+
 
 .arrow.bi {
     color: var(--color-primary);
@@ -155,8 +164,8 @@ p {
 }
 
 .hole-img {
-    height: 130px;
-    width: 130px;
+    height: 100px;
+    width: 100px;
     margin: 0;
     padding: 0;
     background-image: url('../img/hole.png');
@@ -166,8 +175,8 @@ p {
 }
 
 .guitar-img {
-    height: 130px;
-    width: 130px;
+    height: 100px;
+    width: 100px;
     margin: 0;
     padding: 0;
     background-image: url('../img/guitar.png');
@@ -177,8 +186,8 @@ p {
 }
 
 .book-img {
-    height: 130px;
-    width: 130px;
+    height: 100px;
+    width: 100px;
     margin: 0;
     padding: 0;
     background-image: url('../img/book.png');
@@ -188,8 +197,8 @@ p {
 }
 
 .game-img {
-    height: 125px;
-    width: 125px;
+    height: 95px;
+    width: 95px;
     margin: 0;
     padding: 0;
     background-image: url('../img/game.png');
@@ -199,8 +208,8 @@ p {
 }
 
 .f1-img {
-    height: 130px;
-    width: 130px;
+    height: 100px;
+    width: 100px;
     margin: 0;
     padding: 0;
     background-image: url('../img/f1.png');
@@ -357,8 +366,8 @@ p {
     font-weight: 600;
 }
 
-.last-item{
-padding-bottom: 0;
+.last-item {
+    padding-bottom: 0;
 }
 
 /* Meus Projetos */
@@ -371,7 +380,7 @@ padding-bottom: 0;
 }
 
 .meus-projetos .first .title {
-   margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .meus-projetos .first .text {
@@ -388,8 +397,6 @@ padding-bottom: 0;
     padding: 0 30px;
 }
 
-.mini-card {}
-
 hr.mini-card-line {
     border: 0;
     border-top: 1px solid var(--color-white);
@@ -398,10 +405,24 @@ hr.mini-card-line {
 .mini-card .left .img {
     height: 100px;
     width: 160px;
-    background-color: var(--color-grey);
+    background-position: center;
+    background-size: cover;
     border-radius: 10px;
     margin-right: 20px;
 }
+
+#front-end {
+    background-image: url('../img/front-cover.png');
+}
+
+#ux-ui {
+    background-image: url('../img/ux-cover.png');
+}
+
+#design {
+    background-image: url('../img/design-cover.png');
+}
+
 
 .mini-card .center .title {
     padding: 0 0 8px 0;
@@ -413,6 +434,9 @@ hr.mini-card-line {
     margin: 0;
 }
 
+.mini-card-link {
+    font-weight: 500;
+}
 
 .mini-card-link .bi {
     color: var(--color-primary);
@@ -431,10 +455,9 @@ hr.mini-card-line {
 
 .destaques .div-title {
     margin: 40px 0;
-    padding: 0 30px;
 }
 
-.border-card{
+.border-card {
     background-color: var(--color-grey);
     border: 5px solid var(--color-grey);
     border-radius: 15px;
@@ -493,7 +516,7 @@ hr.mini-card-line {
     padding: 20px 30px;
 }
 
-.footer .container-top{
+.footer .container-top {
     margin: 20px 0 0 0;
     padding: 0;
 }
@@ -518,7 +541,7 @@ hr.mini-card-line {
     color: var(--color-blue-hover);
 }
 
-/* pages */
+/* footer pages */
 
 .footer .row .col-footer .title {
     font-size: 18px;
@@ -531,5 +554,35 @@ hr.mini-card-line {
 
 .footer .row .col-footer .list-group .list-group-item {
     padding: 0 0 15px 0px;
-    font-size: 16px ;
+    font-size: 16px;
+}
+
+
+
+/* ---------------------------------------------Front-end Page ------------------------------------------ */
+
+/*
+
+fep = front-end page 
+dep = design page
+xdp = prototipos adobe xd page
+
+*/
+
+
+.img-and-text .title.fep {
+    margin-top: 40px;
+}
+
+.img-header.fep {
+    width: 140px;
+    margin: 40px 0 20px 0;
+}
+
+.card-btns .btn .bi{
+    position: relative;
+    top: 2px;
+    margin-right: 8px;
+    color: var(--color-black-medium);
+    
 }
