@@ -10,7 +10,7 @@ Criar um site onde eu possa falar sobre mim, listar minhas qualidades e habilida
 
 ## Sobre o Projeto
 
-Movido pela busca do meu primeiro estágio, decidi criar uma pagina onde possa me apresentar e falar um pouco sobre minhas habilidades, qualidades e mostrar um pouco sobre os meu projetos
+Movido pela busca do meu primeiro estágio, decidi criar uma pagina onde possa me apresentar e falar um pouco sobre minhas habilidades, qualidades e mostrar um pouco sobre os meu projetos.
 
 O objetivo desde o início foi criar algo completo e bem intuitivo, porem com um design minimalista e direto ao ponto. Todo o design foi criado por mim, primeiro o protótipo no Adobe XD e depois o código, utilizando bastante Bootstrap.
 
@@ -83,7 +83,7 @@ O objetivo desde o início foi criar algo completo e bem intuitivo, porem com um
 
 ## Instruções
 
-Basta baixar os arquivos e abrir o "index.html"
+Basta fazer o download dos arquivos e abrir o "index.html"
 
 ## Ferramentas utilizadas
 
