@@ -2,7 +2,7 @@
 
 ## Capturas de Tela
 
-<img src="http://joaoguimaraes.com/img/forGithub/portfolioMd.jpeg" style="width: 30%;"/> <img src="http://joaoguimaraes.com/img/forGithub/portfolioMd.jpeg" style="width: 30%;"/> <img src="http://joaoguimaraes.com/img/forGithub/portfolioMd.jpeg" style="width: 30%;"/>
+<img src="#" style="width: 30%;"/>
 
 ## Objetivo do Projeto:
 
