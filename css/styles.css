@@ -464,6 +464,12 @@ hr.mini-card-line {
     margin-bottom: 40px;
 }
 
+@media(min-width:480px){
+    #card-destaques{
+        padding: 0 20px;
+    }
+}
+
 .card {
     margin: 0 !important;
     border: none;
